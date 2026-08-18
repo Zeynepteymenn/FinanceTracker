@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Uygulama Adı -->
+    <string name="app_name">FinanceTracker</string>
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <!-- Diğer Sabit Metinler -->
+    <string name="username_hint">Kullanıcı Adı</string>
+    <string name="password_hint">Şifre</string>
+    <string name="login_button">Giriş Yap</string>
+    <string name="logout_button">Çıkış Yap</string>
+    <string name="welcome_message">Hoş Geldiniz</string>
+</resources>
