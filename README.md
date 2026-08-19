@@ -1,80 +1,110 @@
 # 💰 FinanceTracker
 
-FinanceTracker is an Android personal finance management application designed to help users easily track their income, expenses, and financial activities.
+FinanceTracker is an Android personal finance management application designed to help users track their income, expenses, and overall financial balance through a simple and user-friendly interface.
 
-The project was developed as a practical Android application with a simple and user-friendly interface.
+The application was developed as a practical Android project using Java and Android Studio.
 
 ## 📱 Features
 
-- User registration and login
-- Income tracking
-- Expense tracking
-- Financial transaction management
-- Financial reports
-- Simple and user-friendly interface
-- Local user data management
+- 💵 Add and track income
+- 💳 Add and track expenses/payments
+- 🧾 View recent payment history
+- 📊 Generate financial reports
+- 💰 Automatically calculate total income
+- 💸 Automatically calculate total expenses
+- 📈 Calculate the current financial balance
+- 👤 User registration
+- 💾 Local data persistence
+- 📱 Simple and clean Android interface
+
+## 📊 Financial Reports
+
+FinanceTracker automatically calculates the user's financial status based on recorded transactions.
+
+The report screen displays:
+
+- Total Income
+- Total Expenses
+- Current Balance
+
+The balance is calculated automatically:
+
+**Balance = Total Income - Total Expenses**
 
 ## 🛠️ Technologies Used
 
 - Java
 - Android Studio
-- XML
-- Gradle
 - Android SDK
+- XML
 - SharedPreferences
-- Git & GitHub
+- Git
+- GitHub
+- Gradle
+
+## 💾 Data Management
+
+FinanceTracker currently uses Android `SharedPreferences` for local data storage.
+
+Income and expense totals are stored locally on the device and are used to generate financial reports.
+
+Payment history is also stored locally so recent transactions can be displayed on the main screen.
+
+## 📱 Application Flow
+
+The main application flow is:
+
+**Register → Main Dashboard → Add Income / Add Expense → Financial Report**
+
+From the main dashboard, users can:
+
+- Add income
+- Add expenses
+- View recent payments
+- Access financial reports
+- Access the registration screen
 
 ## 📸 Screenshots
 
-Application screenshots will be added soon.
+Application screenshots will be added here to demonstrate the main dashboard, transaction management, and financial report screens.
 
-## 🚀 Getting Started
+## 🚀 Future Improvements
 
-To run the project locally:
+Future versions of FinanceTracker may include:
 
-1. Clone the repository:
-   `git clone https://github.com/Zeynepteymenn/FinanceTracker.git`
-
-2. Open the project in Android Studio.
-
-3. Wait for Gradle synchronization to complete.
-
-4. Select an Android emulator or connect a physical Android device.
-
-5. Run the application.
-
-## 📂 Main Modules
-
-The application includes separate modules for:
-
-- User registration
-- Income management
-- Expense management
-- Financial reports
-- Main dashboard
+- SQLite or Room database integration
+- User authentication improvements
+- Expense categories
+- Income categories
+- Monthly and yearly reports
+- Charts and financial statistics
+- Budget planning
+- Transaction editing and deletion
+- Cloud synchronization
+- Improved Material Design interface
 
 ## 🎯 Project Purpose
 
-The purpose of FinanceTracker is to provide users with a straightforward way to record and manage their personal financial activities while demonstrating practical Android application development skills.
+This project was developed to practice Android application development and personal finance management concepts.
 
-## 🔮 Future Improvements
+It demonstrates:
 
-- Database integration
-- Improved authentication
-- Monthly budget planning
-- Financial statistics and charts
-- Cloud synchronization
-- Multi-language support
-- Improved UI/UX
+- Android Activity management
+- XML-based user interface development
+- Local data persistence
+- User input handling
+- Financial calculations
+- Navigation between application screens
+- Git and GitHub version control
 
 ## 👩‍💻 Developer
 
-**Zeynep Erkoç**
+Developed by **Zeynep Erkoç**
 
-Computer Engineering Graduate | Junior Software Developer
+Computer Engineering Graduate
 
-Technologies: Java, C#, PHP, JavaScript
+## 📌 Project Status
 
----
+🟢 **Active Development**
 
-⭐ If you find this project useful, feel free to star the repository.
+Current version supports income tracking, expense tracking, payment history, financial balance calculation, and financial reporting.
