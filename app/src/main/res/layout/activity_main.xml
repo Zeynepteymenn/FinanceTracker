@@ -1,19 +1,74 @@
-<LinearLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical"
-    android:padding="16dp">
+    android:fillViewport="true">
 
-    <Button
-        android:id="@+id/btnAddPayment"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Ödeme Ekle" />
-
-    <ListView
-        android:id="@+id/listViewPayments"
+    <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="20dp" />
-</LinearLayout>
+        android:orientation="vertical"
+        android:padding="20dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="FinanceTracker"
+            android:textSize="28sp"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gelir ve giderlerinizi kolayca yönetin"
+            android:textSize="16sp"
+            android:gravity="center"
+            android:layout_marginBottom="24dp" />
+
+        <Button
+            android:id="@+id/btnAddIncome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Gelir Ekle"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnAddPayment"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Ödeme Ekle"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnReports"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Raporlar"
+            android:layout_marginBottom="12dp" />
+
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Kayıt Ol"
+            android:layout_marginBottom="24dp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Son Ödemeler"
+            android:textSize="20sp"
+            android:textStyle="bold"
+            android:layout_marginBottom="10dp" />
+
+        <ListView
+            android:id="@+id/listViewPayments"
+            android:layout_width="match_parent"
+            android:layout_height="300dp" />
+
+    </LinearLayout>
+
+</ScrollView>

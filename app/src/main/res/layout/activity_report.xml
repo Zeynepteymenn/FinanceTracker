@@ -1,21 +1,45 @@
 <?xml version="1.0" encoding="utf-8"?>
+
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-    android:padding="16dp">
+    android:padding="24dp">
 
     <TextView
-        android:id="@+id/tvReportTitle"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Raporlar"
-        android:textSize="20sp"
-        android:textStyle="bold" />
-
-    <!-- ListView öğesi lvReports tanımlandı -->
-    <ListView
-        android:id="@+id/lvReports"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:text="Finansal Rapor"
+        android:textSize="26sp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:layout_marginBottom="30dp" />
+
+    <TextView
+        android:id="@+id/tvTotalIncome"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toplam Gelir: 0 TL"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvTotalExpense"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Toplam Gider: 0 TL"
+        android:textSize="18sp"
+        android:padding="16dp"
+        android:layout_marginBottom="12dp" />
+
+    <TextView
+        android:id="@+id/tvBalance"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bakiye: 0 TL"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:padding="16dp" />
+
 </LinearLayout>
